@@ -96,11 +96,24 @@ footer {
     #menu {
         display: flex;
     }
+    /* add space between names*/
     #menu > li {
         padding: 1rem;
     }
+    /* hides "X" toggle label on larger devices*/
     .nav-toggle-label {
         display: none;
+    }
+    /* makes logo larger*/
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main content*/
+    main {
+        /* Push main content down to acommodate larger heder*/
+        margin-top: 95px;
     }
     
 }
